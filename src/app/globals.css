@@ -25,3 +25,12 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #090909;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #666666;
+  border-radius: 12px;
+}

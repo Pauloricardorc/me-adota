@@ -12,6 +12,15 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      height: {
+        'headerCalc': 'calc(100vh - 64px)'
+      },
+      borderRadius: {
+        'medium': '5rem'
+      },
+      boxShadow: {
+        'divider': '0px 0px 5px 2px #FFFFFF30'
+      }
     },
   },
   plugins: [],
